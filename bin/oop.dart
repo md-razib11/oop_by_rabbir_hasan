@@ -12,6 +12,10 @@ void main() {
   classInfo.addThreeNumber(x: 3, y: 4, z: 5);
 
   //constructor
-  MyConstructor constructor=MyConstructor();
+  // MyConstructor constructor=MyConstructor();
+  //This way we can passing value
+  MyConstructor constructor=MyConstructor(4, 5);
 
+  // this keyword
+  newClass.myfunction();
 }
